@@ -11,6 +11,8 @@
 /(mnt/vendor)/persist/fpc(/.*)?                     u:object_r:persist_fingerprint_file:s0
 /sys/devices/soc/soc:fpc1020(/.*)?                  u:object_r:sysfs_fingerprint:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_wayne u:object_r:hal_fingerprint_default_exec:s0
+/sys/devices/soc/soc:fingerprint_fpc/proximity_state                            u:object_r:sysfs_fps_proximity:s0
+/sys/devices/soc/soc:fingerprint_goodix/proximity_state                         u:object_r:sysfs_fps_proximity:s0
 
 # Input files
 /vendor/usr/idc(/.*)?                               u:object_r:idc_file:s0
