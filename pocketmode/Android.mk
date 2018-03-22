@@ -17,7 +17,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v14-preference
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    org.mokee.platform
+    org.mokee.platform.internal
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
