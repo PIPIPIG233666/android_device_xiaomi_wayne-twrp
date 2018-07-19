@@ -118,7 +118,7 @@ on boot
     chown system system /persist/speccfg/submask
     chown system system /persist/speccfg/partition
     chown system system /mnt/vendor/persist/sensors/sns.reg
-#spk pa-cal lct-20180914   
+#spk pa-cal lct-20180914
     chmod 0664 /dev/tiload_node
 
 #Create folder dump yuv images while debugging
@@ -138,6 +138,9 @@ on boot
 
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
+    chmod 0660 /proc/nvt_wake_gesture
+    chown system system /proc/nvt_wake_gesture
+    
 #USB controller configuration
     setprop vendor.usb.rndis.func.name "rndis_bam"
     setprop vendor.usb.rmnet.func.name "rmnet_bam"
