@@ -1,4 +1,4 @@
-# 
+#
 # Copyright (C) 2018 The Mokee Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,26 +17,26 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit from whyred device
-$(call inherit-product, device/xiaomi/whyred/device.mk)
+# Inherit from wayne device
+$(call inherit-product, device/xiaomi/wayne/device.mk)
 
 # Inherit some common Mokee stuff.
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
-PRODUCT_NAME := mk_whyred
+PRODUCT_NAME := mk_wayne
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := whyred
+PRODUCT_DEVICE := wayne
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Redmi Note 5
+PRODUCT_MODEL := MI 6X
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="whyred" \
-    PRODUCT_NAME="whyred" \
-    BUILD_FINGERPRINT="xiaomi/whyred/whyred:9/PKQ1.180904.001/9.4.18:user/release-keys" \
-    PRIVATE_BUILD_DESC="whyred-user 9 PKQ1.180904.001 9.4.18 release-keys"
+    TARGET_DEVICE="wayne" \
+    PRODUCT_NAME="wayne" \
+    BUILD_FINGERPRINT="xiaomi/wayne/wayne:9/PKQ1.180904.001/9.4.18:user/release-keys" \
+    PRIVATE_BUILD_DESC="wayne-user 9 PKQ1.180904.001 9.4.18 release-keys"
 
 TARGET_VENDOR := Xiaomi
