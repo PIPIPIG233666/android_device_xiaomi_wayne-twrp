@@ -906,11 +906,9 @@ vendor/lib64/vendor.qti.latency@2.0.so|511fed2261e65efb633b6661ee25d70ddbca2758
 vendor/lib/hw/consumerir.default.so
 vendor/lib64/hw/consumerir.default.so
 
-# Display calibration
-vendor/etc/qdcm_calib_data_huaxing_nt36672_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml
+# Display
 vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_jdi_nt36672_fhd_video_mode_dsi_panel.xml
 
 # DPM - from MI 8 Lite platina-user 9 PKQ1.181007.001 9.3.28 release-keys
 bin/dpmd|6c511738d83ba1cfdc75b00b9bd676d231914f3a
@@ -1470,6 +1468,12 @@ vendor/lib64/libthermalioctl.so
 -vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
 vendor/bin/time_daemon|9fd464e3f356fcd4f4db6a4c9a1383d8210cb67b
 vendor/lib64/libtime_genoff.so|8f4c1f9ace6af463b241b130d6872b5d39cc7b2a
+
+# TUI
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Wifi
 vendor/bin/cnss-daemon
