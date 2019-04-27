@@ -1471,8 +1471,8 @@ vendor/lib64/libthermalioctl.so
 vendor/bin/time_daemon|9fd464e3f356fcd4f4db6a4c9a1383d8210cb67b
 vendor/lib64/libtime_genoff.so|8f4c1f9ace6af463b241b130d6872b5d39cc7b2a
 
-# Wifi - from MI 8 Lite platina-user 9 PKQ1.181007.001 9.3.28 release-keys
-vendor/bin/cnss-daemon|df219cb3134ba5b60ade06f0b3bd6cd5c13eb8e3
+# Wifi
+vendor/bin/cnss-daemon
 
 # Wfd - from MI 8 Lite platina-user 9 PKQ1.181007.001 9.3.28 release-keys
 bin/wfdservice|edeb291221024401cbae69c2fa4e58733b7efc4c
