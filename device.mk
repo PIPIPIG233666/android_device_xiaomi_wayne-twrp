@@ -305,6 +305,11 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Perf
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.1-service-qti
