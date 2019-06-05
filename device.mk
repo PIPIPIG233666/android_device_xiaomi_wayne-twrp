@@ -184,8 +184,7 @@ $(call inherit-product, build/target/product/verity.mk)
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts \
-    XiaomiPocketMode
+    XiaomiParts
 
 # DRM
 PRODUCT_PACKAGES += \
